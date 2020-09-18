@@ -70,5 +70,33 @@ button:hover {
     color: var(--secondary-color);
 }
 
+@media (max-width: 500px) {
 
+    #container {
+        height: 400px;
+        width: 250px;
+    }
+
+    #add-task {
+        width: 210px;
+        position: relative;
+    }
+
+    main {
+        height: 300px;
+    }
+     header {
+        height: 70px;
+        font-size: xx-small;
+     }
+
+     #text, #button {
+         width: 200px;
+     }
+
+     #button {
+         margin-top: 10px;
+     }
+
+}
 
